@@ -1,19 +1,52 @@
 header{
-	background-image: url(image/header.jpg);
+	background-image: url("image/header.jpg");
 	background-repeat: no-repeat;
-	width: 100%px;
+	width: 100%;
 	height: 522px;
+
 }
 h1{
 	text-align: center;
 	height: 80px;
 	color: white;
 	margin: 0 auto;
-	padding-top: 195px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: normal;
+	padding-top: 221px;
+	font-family: 'Open sans', sans-serif;
+	font-weight: bold;
 	font-size: 100px;
-
-	
+}
+.logot1{
+	text-align: left;
+	padding-left: 142px;
+	position: absolute;
+	margin-top: 15px;
+	padding-right: 15px;
+	/*logoimage topleft*/
+}
+.logot{
+	position: absolute;
+  margin-left: 211px;
+  margin-top: 9px;
+}
+.aboutsearch{
+	float: right;
+	margin-right: 190px;
+  font-family: 'open sans';
 
 }
+.aboutsearch a{
+	color: #072E47;
+	font-family: 'oswald',sans-serif;
+	font-size: 22px;
+  padding-right: 10px;
+  text-decoration: none;
+  padding-top: 22px;
+}
+.TIYtext{
+  color: green;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 22px;
+
+}
+
