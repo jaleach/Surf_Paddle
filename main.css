@@ -5,7 +5,9 @@ header{
 	height: 522px;
 
 }
-
+.container {
+  position: absolute;
+}
 h1{
 	text-align: center;
 	height: 80px;
@@ -55,13 +57,18 @@ h1{
   margin-right: auto;
 }
 .boxleft{
-  margin-top: 50px;
+    margin-top: 50px;
   float: left;
   margin-left: auto;
-  width: 59%;
-
+  width: 63%;
+  margin-right: 45px;
 }
-
+.boxright{
+  margin-top: 72px;
+  margin-right: auto;
+  float: left;
+  width: 20%;
+}
 img.avatar1{
   : 50px;
 }
@@ -90,14 +97,28 @@ h4{
   width: 3.5%;
   margin-top: -17px;
 
-}
-.author{
 
 }
-.presley{
-  float: bottom;
+.sidebar{
+  color: #176CB0;
+  width: 115%;
+}
+.memphis {
+  font-size: 15;
+  font-family: 'Open Sans' sans-serif;
+  color: #ADBAC5;
+  margin-top: 7px;
+
+}
+.presley {
+  /*position: relative;*/
+  clear: both;
+}
+.mostpop{
+  font-size: 62px;
+  font-family: 'oswald',sans-serif;
+  font-weight: lighter;
   text-align: center;
-
 }
 footer{
   background-color: #0A3451;
