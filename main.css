@@ -5,6 +5,7 @@ header{
 	height: 522px;
 
 }
+
 h1{
 	text-align: center;
 	height: 80px;
@@ -47,6 +48,67 @@ h1{
   font-size: 15px;
   text-align: center;
   padding-top: 22px;
+}
+.elvis{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxleft{
+  margin-top: 50px;
+  float: left;
+  margin-left: auto;
+  width: 59%;
+
+}
+
+img.avatar1{
+  : 50px;
+}
+h4{
+  margin-left: 4px;
+}
+.boxright{
+  margin-top: 72px;
+  margin-right: auto;
+  float: right;
+}
+.blogtop{
+  font-size: 62px;
+  font-family: 'oswald',sans-serif;
+  font-weight: lighter;
+}
+.blogbot{
+  font-size: 64px;
+  font-family: 'oswald',sans-serif;
+  font-weight: lighter;
+  margin-top: -76px;
+  margin-bottom: 9px;
+
+}
+.avatar1{
+  width: 3.5%;
+  margin-top: -17px;
+
+}
+.author{
+
+}
+.presley{
+  float: bottom;
+  text-align: center;
+
+}
+footer{
+  background-color: #0A3451;
+  text-align: center;
+}
+.foott{
+  color: #A1B1BC;
+  margin-right: 100px;
+}
+.righty{
+  color: #A1B1BC
 
 }
 
