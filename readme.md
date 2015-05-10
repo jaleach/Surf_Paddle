@@ -1,5 +1,5 @@
 
-Surf and Paddle project by Jim Leach
+Surf and Paddle project by Jim Leach May 10,2015.
 
 #Surf and Paddle Project
 
