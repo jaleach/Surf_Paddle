@@ -23,7 +23,7 @@ h1{
 	height: 80px;
 	color: white;
 	margin: 0 auto;
-	padding-top: 221px;
+	padding-top: 191px;
 	font-family: 'Open sans', sans-serif;
 	font-weight: bold;
 	font-size: 100px;
@@ -105,6 +105,16 @@ h5{
   float: left;
   width: 20%;
 }
+.boxright1 h6{
+
+  font-family: 'Open Sans' sans-serif;
+  font-size: 16px;
+  margin-left: 9px;
+  margin-top: 7px;
+  color: #0851A1;
+
+  margin-bottom: -2px;
+}
 
 h4{
   margin-left: 4px;
@@ -113,6 +123,42 @@ h4{
   margin-top: 72px;
   margin-right: auto;
   float: right;
+}
+.boxright1 span{
+  font-family: 'Open Sans' sans-serif;
+  color: #99AAB7;
+  font-size: 15px;
+
+}
+.tw{
+  margin-right: 0pc;
+  margin-left: -41px;
+}
+.fb{
+  margin-left: 9px;
+  margin-right: 9px;
+}
+.boxright2 img{
+  margin-left: -84px;
+  margin-top: 51px;
+}
+.boxright2{
+  position: relative;
+}
+.boxright2 a{
+  position: absolute;
+  right: 12px;
+  bottom: -20px;
+  font-size: 14px;
+  color: #A7B6C1;
+  font-weight: 400;
+}
+.boxright3{
+  margin-left: -85px;
+  padding-top: 26px;
+  font-family: ;
+  font-family: 'oswald',sans-serif;
+  font-size: 18px;
 }
 .blogtop{
   font-size: 62px;
@@ -201,32 +247,207 @@ h4{
   font-size: 27px;
 }
 .memphis {
-  font-size: 15;
+  font-size: 14px;
   font-family: 'Open Sans' sans-serif;
   color: #ADBAC5;
-  margin-top: 7px;
+  margin-top: 4px;
+  margin-right: 3px;
+}
+.b1{
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 9px;
+  display: inline-block;
+  position: absolute;
+  top: 23px;
+  background-color: #4B565B;
+  padding-bottom: 5px;
 
+}
+.comments{
+  position: relative;
+  /* padding-top: 43px; */
+  margin-top: 21px;
+}
+.comme{
+  left: 40px;
+}
+.upload{
+  left: 208px;
+}
+.b2{
+  background-color: #0A3451;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 9px;
+  display: inline-block;
+  position: absolute;
+  top: 23px;
+  padding-bottom: 5px;
+  right: 267px;
+
+}
+.b2 img{
+  padding-left: 2px;
+}
+.r1{
+  background-color: #A4B3BE;
+  padding-top: 0px;
+  padding-left: 7px;
+  padding-right: 28px;
+  display: inline-block;
+  position: absolute;
+  top: 23px;
+  padding-bottom: 6px;
+  left: 72px;
+
+}
+.read{
+  color: #F4F6F8;
+  font-family: 'Open sans' sans-serif;
+  font-size: 13px;
+  left: 72px;
+  padding-right: 17px;
+}
+.comments h4{
+  margin-top: 6px;
+  margin-bottom: 1px;
+}
+.rlater {
+  color: #F4F6F8;
+  font-family: 'Open sans' sans-serif;
+  font-size: 13px;
+  padding-right: 21px;
+  left: 240px;
+  padding-bottom: 5px;
+
+}
+.r2 h4{
+  color: white;
+  font-family: 'Open sans' sans-serif;
+  font-size: 13px;
+  padding-right: 21px;
+  left: 240px;
+
+
+}
+.r2{
+  background-color: #106DB3;
+  padding-top: 0px;
+  padding-left: 6px;
+  padding-right: -1px;
+  padding-right: -2px;
+  display: inline-block;
+  position: absolute;
+  top: 23px;
+  padding-bottom: 5px;
+  left: 383px;
+  right: 145px;
+  left: 378px;
 }
 .presley {
   /*position: relative;*/
   clear: both;
+
+}
+.line{
+
+  padding-top: 120px;
 }
 .mostpop{
+  padding-left: 16px;
   font-size: 62px;
   font-family: 'oswald',sans-serif;
   font-weight: lighter;
   text-align: center;
+  padding-top: 25px;
+  padding-right: 1px;
+  border-top: solid 1px;
 }
+.poppost{
+  width: 102%;
+  position: relative;
+  margin: 29px;
+  right: 29px;
+  margin-bottom: 0px;
+
+}
+.pop h5{
+  position: absolute;
+  color: #062E49;
+  /* display: inline-block; */
+  font-family: 'oswald', sans-serif;
+  z-index: 1;
+  top: 267px;
+  left: 17px;
+}
+.pop span{
+  position: absolute;
+  width: 200px;
+  bottom: 38px;
+}
+.pop{
+  float: left;
+  position: relative;
+}
+.poppost img{
+  float: left;
+  position: relative;
+}
+.poppost:after {
+  clear: left;
+  content: "";
+  color: white;
+  display: block;
+}
+.pop:hover:after {
+  opacity: 0;
+}
+
+.pop:after {
+  background: #155B90;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .7;
+  content: "";
+}
+.pop:hover h5{
+  color: white;
+}
+
 footer{
   background-color: #0A3451;
-  text-align: center;
+  position: relative;
+  height: 100px;
+  clear: both;
 }
-.foott{
-  color: #A1B1BC;
-  margin-right: 100px;
+.lefty{
+  color: #B8C4CE position: absolute;
+  float: left;
+  display: inline-block;
+  margin-left: 166px;
+  margin-top: 27px;
+}
+.lefty h6{
+  color: #B8C4CE;
+  position: absolute;
+  left: 225px;
+  font-size: 85%;
+  top: 10px;
+  font-weight: ligh;
+  font-weight: lighter;
 }
 .righty{
-  color: #A1B1BC
-
+  color: #B8C4CE;
+  position: absolute;
+  float: right;
+  display: inline-block;
+  right: 144px;
+  top: 39px;
+  font-size: 14px;
+  font-family: 'Open Sans' sans-serif;
 }
 
