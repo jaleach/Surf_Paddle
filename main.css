@@ -1,5 +1,8 @@
 
-body{
+.container{
+  margin: 0 auto;
+}
+.body{
   font-family: 'opne sans', sans-serif;
 }
 p{
@@ -275,19 +278,14 @@ h4{
 .upload{
   left: 208px;
 }
-.b2{
-  background-color: #0A3451;
-  padding-top: 7px;
-  padding-left: 7px;
-  padding-right: 9px;
-  display: inline-block;
-  position: absolute;
-  top: 23px;
-  padding-bottom: 5px;
-  right: 267px;
+.share1{
+
+  right: 262px;
+
+  color: #F4F6F8;
 
 }
-.b2 img{
+.share1 img{
   padding-left: 2px;
 }
 .r1{
@@ -322,29 +320,24 @@ h4{
   padding-bottom: 5px;
 
 }
-.r2 h4{
+.share2 h4{
   color: white;
   font-family: 'Open sans' sans-serif;
   font-size: 13px;
-  padding-right: 21px;
-  left: 240px;
-
-
+  padding-right: 0px;
 }
-.r2{
-  background-color: #106DB3;
-  padding-top: 0px;
-  padding-left: 6px;
-  padding-right: -1px;
-  padding-right: -2px;
-  display: inline-block;
-  position: absolute;
-  top: 23px;
-  padding-bottom: 5px;
-  left: 383px;
-  right: 145px;
+.share2{
   left: 378px;
+  width: 94px;
+  padding-right: 19px;
 }
+.b1:hover{
+  background-color: #0A3451;
+}
+.r1:hover{
+  background-color: #196EB1;
+}
+
 .presley {
   /*position: relative;*/
   clear: both;
