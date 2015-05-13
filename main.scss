@@ -2,6 +2,9 @@
 $colorit: #B8C4CE;
 $colorme: #F4F6F8;
 $colordd: #0A3451;
+$coloryo: 'Open sans', sans-serif;
+$colorwy: 'oswald', sans-serif;
+
 
 .container{
   margin: 0 auto;
@@ -31,7 +34,7 @@ h1{
 	color: white;
 	margin: 0 auto;
 	padding-top: 191px;
-	font-family: 'Open sans', sans-serif;
+	font-family: $coloryo;
 	font-weight: bold;
 	font-size: 100px;
 }
@@ -47,13 +50,13 @@ h1{
 	position: absolute;
   margin-left: 198px;
   margin-top: 8px;
-  font-family: 'Open sans', sans-serif;
+  font-family: $coloryo;
   font-weight: bolder;
   }
 
 .aboutsearch{
 
-	font-family: 'oswald',sans-serif;
+	font-family: $coloryo;
 	font-size: 17px;
   float: right;
   padding-right: 10px;
@@ -73,7 +76,7 @@ h1{
   padding-right: 10px;
 }
 .header-txt{
-    font-family: 'oswald',sans-serif;
+    font-family: $coloryo;
 
 }
 .TIYtext{
@@ -104,7 +107,7 @@ h5{
   font-size: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'oswald', sans-serif;
+  font-family: $colorwy;
 
 }
 .boxright{
@@ -115,7 +118,7 @@ h5{
 }
 .boxright1 h6{
 
-  font-family: 'Open Sans' sans-serif;
+  font-family: $coloryo;
   font-size: 16px;
   margin-left: 9px;
   margin-top: 7px;
@@ -133,7 +136,7 @@ h4{
   float: right;
 }
 .boxright1 span{
-  font-family: 'Open Sans' sans-serif;
+  font-family: $coloryo;
   color: #99AAB7;
   font-size: 15px;
 
@@ -164,19 +167,19 @@ h4{
 .boxright3{
   margin-left: -85px;
   padding-top: 26px;
-  font-family: 'oswald',sans-serif;
+  font-family: $colorwy;
   font-size: 18px;
 }
 .blogtop{
   font-size: 62px;
-  font-family: 'oswald',sans-serif;
+  font-family: $colorwy;
   font-weight: lighter;
   color: $colordd;
   margin-left: 35px;
 }
 .blogbot{
   font-size: 64px;
-  font-family: 'oswald',sans-serif;
+  font-family: $colorwy;
   font-weight: lighter;
   margin-top: -76px;
   margin-bottom: 9px;
@@ -246,14 +249,14 @@ h4{
   margin-left: 41px;
   h5{
   margin-left: 20px;
-  font-family: 'Open sans',sans-serif;
+  font-family: $coloryo;
   line-height: 63px;
   font-size: 27px;
   }
 }
 .memphis {
   font-size: 14px;
-  font-family: 'Open Sans' sans-serif;
+  font-family: $coloryo;
   color: #ADBAC5;
   margin-top: 4px;
   margin-right: 3px;
@@ -305,14 +308,14 @@ h4{
 }
 .read{
   color: $colorme;
-  font-family: 'Open sans' sans-serif;
+  font-family: $coloryo;
   font-size: 13px;
   left: 72px;
   padding-right: 17px;
 }
 .rlater {
   color: $colorme;
-  font-family: 'Open sans' sans-serif;
+  font-family: $coloryo;
   font-size: 13px;
   padding-right: 21px;
   left: 240px;
@@ -326,13 +329,13 @@ h4{
   padding-right: 19px;
   h4{
   color: white;
-  font-family: 'Open sans' sans-serif;
+  font-family: $coloryo;
   font-size: 13px;
   padding-right: 0px;
   }
 }
 .b1:hover{
-  background-color: #0A3451;
+  background-color: $colordd;
 }
 .r1:hover{
   background-color: #196EB1;
@@ -349,7 +352,7 @@ h4{
 .mostpop{
   padding-left: 16px;
   font-size: 62px;
-  font-family: 'oswald',sans-serif;
+  font-family: $colorwy;
   font-weight: lighter;
   text-align: center;
   padding-top: 25px;
@@ -374,7 +377,7 @@ h4{
   position: absolute;
   color: #062E49;
   /* display: inline-block; */
-  font-family: 'oswald', sans-serif;
+  font-family: $colorwy;
   z-index: 1;
   top: 267px;
   left: 17px;
@@ -410,7 +413,7 @@ h4{
 }
 
 footer{
-  background-color: #0A3451;
+  background-color: $colordd;
   position: relative;
   height: 100px;
   clear: both;
@@ -440,6 +443,6 @@ footer{
   right: 144px;
   top: 39px;
   font-size: 14px;
-  font-family: 'Open Sans' sans-serif;
+  font-family: $coloryo;
 }
 
