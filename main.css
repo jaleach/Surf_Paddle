@@ -224,7 +224,11 @@ h4 {
 
 .borderleft h5 {
   margin-left: 20px;
+<<<<<<< HEAD
   font-family: "Open sans", sans-serif;
+=======
+  font-family: 'Open sans',sans-serif;
+>>>>>>> master
   line-height: 63px;
   font-size: 27px; }
 
@@ -300,7 +304,11 @@ h4 {
 
 .share2 h4 {
   color: white;
+<<<<<<< HEAD
   font-family: "Open sans", sans-serif;
+=======
+  font-family: 'Open sans' sans-serif;
+>>>>>>> master
   font-size: 13px;
   padding-right: 0px; }
 
@@ -346,7 +354,11 @@ h4 {
   position: absolute;
   color: #062E49;
   /* display: inline-block; */
+<<<<<<< HEAD
   font-family: "oswald", sans-serif;
+=======
+  font-family: 'oswald', sans-serif;
+>>>>>>> master
   z-index: 1;
   top: 267px;
   left: 17px; }
