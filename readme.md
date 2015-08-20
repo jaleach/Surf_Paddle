@@ -1,7 +1,7 @@
 
-Surf and Paddle project by Jim Leach May 10,2015.
-
 #Surf and Paddle Project
+
+Surf and Paddle project by Jim Leach May 10,2015
 The Iron Yard
 
 Picture Pixel mockup
